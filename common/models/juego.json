@@ -1,0 +1,40 @@
+{
+  "name": "juego",
+  "plural": "juegos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "local": {
+      "type": "string",
+      "required": true
+    },
+    "visitante": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "anotacionesLocal": {
+      "type": "string"
+    },
+    "anotacionesVisitante": {
+      "type": "string"
+    },
+    "jugadorDestacado": {
+      "type": "string"
+    },
+    "estadio": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

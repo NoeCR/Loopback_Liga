@@ -1,0 +1,39 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "equipo": 6,
+    "jugador": 9,
+    "juego": 1,
+    "estadio": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "equipo": {
+      "1": "{\"nombre\":\"R.Madrid\",\"logo\":\"string\",\"estado\":true,\"jugadores\":[\"6\",\"8\",\"1\"],\"id\":1}",
+      "2": "{\"nombre\":\"F.C. Barcelona\",\"logo\":\"string\",\"estado\":true,\"jugadores\":[],\"id\":2}",
+      "3": "{\"nombre\":\"C.F. Valencia\",\"logo\":\"string\",\"estado\":true,\"jugadores\":[],\"id\":3}",
+      "4": "{\"nombre\":\"Ath. Madrid\",\"logo\":\"string\",\"estado\":true,\"jugadores\":[],\"id\":4}",
+      "5": "{\"nombre\":\"Villareal F.C.\",\"logo\":\"string\",\"estado\":true,\"jugadores\":[],\"updated\":\"2019-03-16T12:57:57.832Z\",\"id\":5}"
+    },
+    "jugador": {
+      "1": "{\"nombre\":\"Sergio\",\"edad\":35,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"delantero\",\"dorsal\":10,\"estado\":true,\"id\":1}",
+      "2": "{\"nombre\":\"Raúl\",\"edad\":23,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"delantero\",\"dorsal\":9,\"estado\":true,\"id\":2}",
+      "3": "{\"nombre\":\"Iniesta\",\"edad\":34,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"centro\",\"dorsal\":8,\"estado\":true,\"id\":3}",
+      "4": "{\"nombre\":\"Xavi\",\"edad\":31,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"centro\",\"dorsal\":7,\"estado\":true,\"id\":4}",
+      "5": "{\"nombre\":\"Pique\",\"edad\":30,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"defensa\",\"dorsal\":6,\"estado\":true,\"id\":5}",
+      "6": "{\"nombre\":\"Ramos\",\"edad\":30,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"defensa\",\"dorsal\":5,\"estado\":true,\"id\":6}",
+      "7": "{\"nombre\":\"Casillas\",\"edad\":36,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"portero\",\"dorsal\":1,\"estado\":true,\"id\":7}",
+      "8": "{\"nombre\":\"Cazorla\",\"edad\":27,\"apodo\":\"\",\"foto\":\"imagen.jpg\",\"posicion\":\"lateral\",\"dorsal\":12,\"estado\":true,\"id\":8}"
+    },
+    "juego": {},
+    "estadio": {}
+  }
+}

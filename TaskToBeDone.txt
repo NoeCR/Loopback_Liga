@@ -1,0 +1,5 @@
+
+1. Crear relaciones en los modelos (hasOne, hasMany)
+2. Validar campos de entrada antes de pesistir los datos
+3. Establecer autorización mediante ACL
+4. Documentar aplicación con Swagger

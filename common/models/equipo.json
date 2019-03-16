@@ -1,0 +1,34 @@
+{
+  "name": "equipo",
+  "plural": "equipos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "boolean",
+      "default": true
+    },
+    "jugadores": {
+      "type": [
+        "string"
+      ]
+    },
+    "updated": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
